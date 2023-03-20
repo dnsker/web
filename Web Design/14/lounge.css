@@ -1,5 +1,6 @@
 p {
   color: rgb(0, 128, 79);
+  font-size: 2em; 
 }
 h1, h2 {
   font-family: Arial;
@@ -7,6 +8,7 @@ h1, h2 {
 }
 h1 {
   border-bottom: 1px solid black;
+  font-size: 2rem;/* 相对于根元素字体大小的 2 倍 */
 }
 
 em{
