@@ -1,0 +1,15 @@
+p {
+  color: rgb(0, 128, 79);
+}
+h1, h2 {
+  font-family: Arial;
+  color: grey; 
+}
+h1 {
+  border-bottom: 1px solid black;
+}
+
+em{
+  font-family: "Yo Gothic";
+  color:rgb(255, 166, 0)
+}
