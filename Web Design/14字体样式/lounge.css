@@ -1,6 +1,6 @@
 p {
   color: rgb(0, 128, 79);
-  font-size: 2em; 
+  font-size: 2em;/* 相对于父元素字体大小的 2 倍 */ 
 }
 h1, h2 {
   font-family: Arial;
