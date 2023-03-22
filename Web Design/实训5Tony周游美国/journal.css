@@ -1,25 +1,24 @@
 html {
-font-size: 12px ;
-font-family: 'Verdana','Geneva','Arial';
-}
-
-h1 {
-font-size: 2.2rem;
-color: #CC6600 ;
-
-}
-
-h2 {
-font-size: 1.3rem;
-font-weight: normal;
-color: #CC6600 ;
-
+      font-size: 12px ;
+      font-family: 'Verdana','Geneva','Arial';
 }
 
 h1,h2 {
-border-bottom: thin dotted #888888;
+      border-bottom: thin dotted #888888;
+      color: #CC6600 ;
 }
 
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+
+
 blockquote {
-font-style: italic;
+            font-style: italic;
 }
