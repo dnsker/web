@@ -3,7 +3,7 @@ body {
 	font-family: Georgia, 'Times New Roman';
   font-style: italic;
   color:#444444;
-  line-height: 1.9em;
+  line-height: 1.1em;
 
 }
 
@@ -20,16 +20,20 @@ h2 {
 }
 
 .guarantee {
-  border-color:        white;
-  border-width:        1px;
-  border-style:        dashed;
+  border-top-color:black;
+  border-left-color: brown;
+  border-bottom-color: chartreuse;
+  border-right-color: darkmagenta;
+  border-width:        100px;
+  border-style:        dashed solid;
   background-color:    #a7cece;
   padding:             25px; /* 新增内边距 */
   padding-left:        80px;/*左内边距*/
   margin:              30px;  /* 新增外边距 */
-  margin-right:        250px;/*右外边距*/
+  margin-right:        700px;/*右外边距*/
   background-image: url(images/background.gif);/*添加图片*/
   background-repeat: no-repeat;/*图片是否重复*/
   background-position: top left;/*图片位置左上*/
-  
+  border-radius:       700px;
+
 }
