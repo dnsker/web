@@ -3,7 +3,7 @@ body {
 	font-family: Georgia, 'Times New Roman';
   font-style: italic;
   color:#444444;
-  line-height: 1.1em;
+  line-height: 1.9em;
 
 }
 
@@ -20,9 +20,9 @@ h2 {
 }
 
 .guarantee {
-  border-color: white;
+  border-color:         white;
   border-width:        1px;
-  border-style:        dashed solid;
+  border-style:        dashed;
   background-color:    #a7cece;
   padding:             25px; /* 新增内边距 */
   margin:              30px;  /* 新增外边距 */
@@ -30,4 +30,24 @@ h2 {
   background-repeat: no-repeat;/*图片是否重复*/
   background-position: top left;/*图片位置左上*/
 
+}
+
+.elixirs {
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  text-align: center;/*文本居中对齐*/
+  line-height: 1;
+  
+}
+
+div>h2 {
+  color: black;
 }
