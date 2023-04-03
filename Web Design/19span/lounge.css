@@ -48,6 +48,7 @@ h2 {
   
 }
 
+
 div>h2 {
   color: black;
 }
@@ -61,8 +62,30 @@ div>h2 {
 
 .cd {
   font-style: italic;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
 }
 
+
 .artist {
-  font-weight: 650;
+  font-weight: bold;/*字体*/
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
 }
