@@ -1,0 +1,20 @@
+p.a {                       /*外部*/
+    color:blueviolet;
+}
+p#b {
+    color:yellow;
+}
+p {
+    color:deepskyblue;
+}
+
+.c {                        /*CSS定义*/
+    color:darkgrey;
+}
+.d {
+    color:chartreuse;
+}
+.e {
+    color:darkslategray;
+}
+
