@@ -1,35 +1,45 @@
 body {
-  background-color: black;
-  width:100%;
+    background-color: black;
+    width:100%;
 }
 
 .z1 {
-  /* opacity:0.4683;
-  visibility:inherit;
-  transform: translate3d(0px,0px,0px);
-  scale: (1.0468,1.04683);
-  overflow-clip-margin: content-box;
-  overflow: clip; */
-  padding: 0;
-  margin: 0;
-  border:0;
-  transition: all 5s ease-in;;
+    /* opacity:0.4683;
+    visibility:inherit;
+    transform: translate3d(0px,0px,0px);
+    scale: (1.0468,1.04683);
+    overflow-clip-margin: content-box;
+    overflow: clip; */
+    padding: 0;
+    margin: 0;
+    border:0;
+    transition: all 5s ease-in;
 }
 
 .z1:hover {
-  transform:scale(1.5);
+    transform:scale(1.5);
 }
 
 .z2 {
-  color: white;
-  font-family: arial;
-  font-weight:bolder;
-  font-size: 5vh;;
-  padding: 0 20px;
-  text-align: center;
+    color: white;
+    font-family: arial;
+    font-weight:bolder;
+    font-size: 5vh;;
+    padding: 0 20px;
+    text-align: center;
 }
 
-.z3 {
-  width:30%;
-  padding: 20px 20px;
+/* .z3 {
+    width:30%;
+    padding: 20px 20px;
+} */
+
+* {
+    margin: 0%;
+    padding: 0%;
 }
+
+
+
+
+
