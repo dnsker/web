@@ -1,0 +1,330 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+
+.Home-space-tabber{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 350px;
+}
+
+.Home-space-tabber-title{
+    width: 800px;
+    height:60px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 26%;
+}
+.Home-space-tabber-swiper{
+    width: 1500px;
+    height: 50%;
+    /* background-color: red; */
+    margin-left: 15px;
+    margin-top: 10%;
+    overflow: hidden;
+    position: relative;
+
+}
+.Home-space-tabber-swiper-item{
+    width: 600%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.Home-space-tabber-swiper-item  li{
+    width: 6%;
+    height: 100%;
+    /* background-color: aliceblue; */
+    margin-left: 20px;
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.Home-space-tabber-swiper-item  li img{
+    width: 100%;
+    height: 90%;
+}
+
+.li-item{
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 63%;
+}
+
+#swiper-one{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 35%;
+    z-index: 1000;
+}
+
+#swiper-one:checked ~ ul{
+    transition: all 1s;
+    margin-left: 0px;
+}
+
+#swiper-two{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 38%;
+    z-index: 1000;
+}
+
+#swiper-two:checked ~ ul{
+    transition: all 1s;
+    margin-left: -590px;
+}
+#swiper-three{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 40.5%;
+    z-index: 1000;
+}
+
+#swiper-three:checked ~ ul{
+    transition: all 1s;
+    margin-left: -1130px;
+}
+
+#swiper-font{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 43%;
+    z-index: 1000;
+}
+
+#swiper-font:checked ~ ul{
+    transition: all 1s;
+    margin-left: -1700px;
+}
+
+#swiper-Five{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 46%;
+    z-index: 1000;
+}
+
+#swiper-Five:checked ~ ul{
+    transition: all 1s;
+    margin-left: -2240px;
+}
+
+#swiper-Six{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 49%;
+    z-index: 1000;
+}
+
+#swiper-Six:checked ~ ul{
+    transition: all 1s;
+    margin-left: -2800px;
+}
+
+#swiper-Seven{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 52%;
+    z-index: 1000;
+}
+
+#swiper-Seven:checked ~ ul{
+    transition: all 1s;
+    margin-left: -3360px;
+}
+
+#swiper-Eight{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 55%;
+    z-index: 1000;
+}
+
+#swiper-Eight:checked ~ ul{
+    transition: all 1s;
+    margin-left: -3920px;
+}
+
+#swiper-Nine{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 58%;
+    z-index: 1000;
+}
+
+#swiper-Nine:checked ~ ul{
+    transition: all 1s;
+    margin-left: -4480px;
+}
+
+#swiper-Ten{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 61%;
+    z-index: 1000;
+}
+
+#swiper-Ten:checked ~ ul{
+    transition: all 1s;
+    margin-left: -5008px;
+}
+
+#swiper-Eleven{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    position: absolute;
+    top: 95%;
+    left: 64%;
+    z-index: 1000;
+}
+
+#swiper-Eleven:checked ~ ul{
+    transition: all 1s;
+    margin-left: -5600px;
+}
+
+.Home-tabber-at-last{
+    width: 100%;
+    height: 50px;
+    margin-top: 13%;
+    text-align: center;
+    line-height: 50px;
+}
+ #Home-tabber-at-last-ul{
+    display: flex;
+    list-style: none;
+    margin-left: 22%;
+}
+
+.Home-tabber-at-last ul li{
+    margin-left: 20px;
+    color: white;
+    transition: all 1s;
+}
+
+.Home-tabber-at-last ul li:nth-child(1){
+    color: #aba4a4;
+}
+
+.Home-tabber-at-last ul li:nth-child(2):hover{
+    color: #aba4a4;
+    cursor: pointer;
+}
+
+.Home-tabber-at-last ul li:nth-child(3):hover{
+    color: #aba4a4;
+    cursor: pointer;
+}
+
+.Home-tabber-at-last ul li:nth-child(4):hover{
+    color: #aba4a4;
+    cursor: pointer;
+}
+
+.Home-tabber-at-last ul li:nth-child(5):hover{
+    color: #aba4a4;
+    cursor: pointer;
+}
+
+.Home-tabber-at-last ul li:nth-child(6):hover{
+    color: #aba4a4;
+    cursor: pointer;
+}
+
+.Home-tabber-at-last ul li:nth-child(7):hover{
+    color: #aba4a4;
+    cursor: pointer;
+}
+
+.Home-tabber-at-last ul li:nth-child(8):hover{
+    color: #aba4a4;
+    cursor: pointer;
+}
+
+.Home-title-keystroke{
+    width: 100px;
+    height: 50px;
+    /* background-color: red; */
+    position: absolute;
+    top: 640px;
+    left: 700px;
+}
+
+.Home-title-keystroke img{
+    width: 100%;
+    height: 100%;
+}
+
+.Home-space-tabber-left-keystroke{
+    width: 100px;
+    height: 60px;
+    /* background-color: red; */
+    position: absolute;
+    left: 15%;
+    top: 75%;
+}
+
+.Home-space-tabber-left-keystroke img{
+    width: 100%;
+    height: 100%;
+}
+
+.Home-space-tabber-right-keystroke{
+    width: 100px;
+    height: 60px;
+    /* background-color: red; */
+    position: absolute;
+    left: 80%;
+    top: 75%;
+}
+
+.Home-space-tabber-right-keystroke img{
+    width: 100%;
+    height: 100%;
+}
